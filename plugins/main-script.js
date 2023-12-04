@@ -3,7 +3,7 @@ import { join } from 'path';
 import axios from 'axios'; 
 
 let handler = async function (m, { conn, __dirname }) {
-  const githubRepoURL = 'https://github.com/Guru322/GURU-BOT';
+  const githubRepoURL = 'https://github.com/sportsoracle05/ORACLE-BOT';
 
   try {
   
@@ -16,18 +16,17 @@ let handler = async function (m, { conn, __dirname }) {
 
       // Format the repository information with emojis
       const formattedInfo = `
-📂 Repository Name: ${repoData.name}
-📝 Description: ${repoData.description}
 👤 Owner: ${repoData.owner.login}
 ⭐ Stars: ${repoData.stargazers_count}
-🍴 Forks: ${repoData.forks_count}
-🌐 URL: ${repoData.html_url}
+╭───❮ *🎯APP* ❯  
+│https://bit.ly/43BQzLP 
+╰────────────⦁`.trim())
       `.trim();
 
       // Send the formatted information as a message
       await conn.relayMessage(m.chat,  {
         requestPaymentMessage: {
-          currencyCodeIso4217: 'INR',
+          currencyCodeIso4217: 'NGN',
           amount1000: 69000,
           requestFrom: m.sender,
           noteMessage: {
@@ -39,11 +38,11 @@ let handler = async function (m, { conn, __dirname }) {
           }}}}}}, {})
     } else {
       // Handle the case where the API request fails
-      await conn.reply(m.chat, 'Unable to fetch repository information.', m);
+      await conn.reply(m.chat, 'Unable to fetch script information.', m);
     }
   } catch (error) {
     console.error(error);
-    await conn.reply(m.chat, 'An error occurred while fetching repository information.', m);
+    await conn.reply(m.chat, 'An error occurred while fetching script information.', m);
   }
 };
 
