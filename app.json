@@ -4,7 +4,7 @@
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/Guru322/GURU-BOT",
+  "repository": "https://github.com/sportsoracle05/ORACLE-BOT",
   "stack": "container",
   "env": {
     "DATABASE_URL": {
@@ -14,12 +14,12 @@
     },
     "SESSION_ID": {
       "description": "your session id",
-      "required": true,
+      "required": false,
       "value": ""
     },
     "MODE": {
       "description": "mode public or private",
-      "required": true,
+      "required": false,
       "value": "public"
     },
     "PREFIX": {
@@ -29,12 +29,12 @@
     },
      "HKEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
-      "required": true,
+      "required": false,
       "value": ""
     },
      "HAPP": {
       "description": "Put the Heroku app name, same as above entered",
-      "required": true,
+      "required": false,
       "value": ""
     },
     "statusview": {
