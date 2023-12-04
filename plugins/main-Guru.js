@@ -1,28 +1,30 @@
 let handler = async m => m.reply(`
 
-≡  *GURU  ┃ ᴮᴼᵀ*   GROUPS
-
-─────────────
-▢ Join public bot group and support
-https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp
-
-▢ Group 2
-https://chat.whatsapp.com/LwLQab5mZVW6WWRbBPnDGC
-
-▢ Group 3
-https://chat.whatsapp.com/Jn9qVerYN6Q1L0vlVFe2XL
-
-─────────────
-≡ Disabled links? enter here! 
-
-▢ Group WhatsApp 
- https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp
-─────────────
-▢ *Owner Telegram*
- https://t.me/i_want_to_be_isekaied
-
-▢ *YouTube*
-• https://www.youtube.com/@Asliguru
+≡ *꧁𝑸𝒖𝒆𝒆𝒏 𝑶𝒓𝒂𝒄𝒍𝒆꧂* 
+    
+ *STATE* 
+ ▢ *${groupsIn.length}* GROUP CHATS 
+ ▢ *${groupsIn.length}* united groups 
+ ▢ *${groupsIn.length - groupsIn.length}* abandoned groups 
+ ▢ *${chats.length - groupsIn.length}* private chats 
+ ▢ *${chats.length}* Total Chats 
+  
+ *≡ OWNER* 
+   *๖ۣۜ𝓟𝓡𝜣𝘚𝘱𝘰𝘳𝘵𝘴 𝘖𝘳𝘢𝘤𝘭𝘦(◕‿-)✌* 
+ ▢ Instagram : 
+   • https://instagram.com/emseofficial 
+ ▢ Application : 
+   • https://bit.ly/43BQzLP 
+ ▢ Contact :  
+   • http://wa.me/2349085771938  
+ ▢ WA Group :  
+   • https://chat.whatsapp.com/H26u2wz3zl65jxQfpwGigE 
+  
+  *≡ S E R V E R* 
+ *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())} 
+ *🔵 FreeRAM:* ${format(freemem())} 
+  
+ *≡  NodeJS memory *
 
 
 `.trim())
