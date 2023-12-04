@@ -224,19 +224,19 @@ import {
  }
  
  function ucapan() {
-  const time = moment.tz("Asia/Kolkata").format("HH")
+  const time = moment.tz("Africa/Lagos").format("HH")
   let res = "Good morning ☀️"
-  if (time >= 4) {
+  if (time >= 00) {
    res = "Good Morning 🌄"
   }
-  if (time >= 10) {
+  if (time >= 12) {
    res = "Good Afternoon ☀️"
   }
   if (time >= 15) {
    res = "Good Afternoon 🌇"
   }
   if (time >= 18) {
-   res = "Good Night 🌙"
+   res = "Good Evening 🌙"
   }
   return res
  }
