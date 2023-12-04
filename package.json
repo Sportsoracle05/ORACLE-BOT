@@ -1,5 +1,5 @@
 { 
-    "name": "gurubot",
+    "name": "꧁𝑸𝒖𝒆𝒆𝒏 𝑶𝒓𝒂𝒄𝒍𝒆꧂",
     "version": "2.0.0",
     "description": "Advanced WhatsApp Bot",
     "main": "index.js",
@@ -25,16 +25,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/Guru322/GURU-BOT",
+    "homepage": "https://github.com/sportsoracle05/ORACLE-BOT",
     "author": {
-        "name": "GURU"
+        "name": "๖ۣۜ𝓟𝓡𝜣𝘚𝘱𝘰𝘳𝘵𝘴 𝘖𝘳𝘢𝘤𝘭𝘦(◕‿-)✌"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Guru322/GURU-BOT.git"
+        "url": "git+https://github.com/sportsoracle05/ORACLE-BOT.git"
     },
     "bugs": {
-        "url": "https://github.com/Guru322/GURU-BOT/issues"
+        "url": "https://github.com/sportsoracle05/ORACLE-BOT/issues"
     },
     "license": "Apache License 2.0",
     "dependencies": {
