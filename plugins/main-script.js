@@ -20,8 +20,8 @@ let handler = async function (m, { conn, __dirname }) {
 ⭐ Stars: ${repoData.stargazers_count}
 ╭───❮ *🎯APP* ❯  
 │https://bit.ly/43BQzLP 
-╰────────────⦁`.trim())
-      `.trim();
+╰────────────⦁`
+      .trim();
 
       // Send the formatted information as a message
       await conn.relayMessage(m.chat,  {
