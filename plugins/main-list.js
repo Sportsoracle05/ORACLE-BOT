@@ -275,10 +275,7 @@ break;
      ⎪⌲👑 _${usedPrefix}tinyurl/shorturl_
      ⎪⌲👑 _${usedPrefix}readvo_
      ⎪⌲👑 _${usedPrefix}true_
-     ┗━━━ʕ•㉨•ʔ━━━┛`; // 
-          break;
-          case 'nsfwmenu':
-          lkr = `use command ${usedPrefix}nsfw`; // 
+     ┗━━━ʕ•㉨•ʔ━━━┛`; //
           break;
           case 'logomenu':
           lkr = `use ${usedPrefix}logo to see all options \ngfx cmd upto 12`; // 
